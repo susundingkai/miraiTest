@@ -55,7 +55,7 @@ object PluginMain : KotlinPlugin(
             if (message.contentToString().startsWith("复读")) {
                 group.sendMessage(message.contentToString().replace("复读", ""))
             }
-            if (message.contentToString() == "hi") {
+            if (message.contentToString() == "nihao") {
                 //群内发送
                 group.sendMessage("hi")
                 //向发送者私聊发送消息
